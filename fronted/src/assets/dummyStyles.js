@@ -953,6 +953,7 @@ export const navbarStyles = {
   mobileMenuText: "font-medium text-gray-700",
   
   // Mobile Auth Buttons
+  // mobileCreateAccountButton: "w-full flex items-center justify-center space-x-2 p-3 rounded-xl bg-gradient-to-r from-blue-500 to-indigo-500 text-white font-semibold shadow-sm hover:shadow-md transition-all duration-300 mt-2",
   mobileLoginButton: "w-full flex items-center justify-center space-x-2 p-3 rounded-xl bg-gradient-to-r from-blue-500 to-indigo-500 text-white font-semibold shadow-sm hover:shadow-md transition-all duration-300 mt-2",
   mobileLogoutButton: "w-full flex items-center justify-center space-x-2 p-3 rounded-xl bg-white text-gray-800 font-semibold shadow-sm border border-gray-200 hover:shadow-md transition-all duration-300 mt-2",
   

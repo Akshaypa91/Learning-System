@@ -91,17 +91,18 @@ const Navbar = () => {
                         )}
 
                         {/* toggle */}
-                        <button
+                        {/* <button
                             onClick={() => setIsOpen(!isOpen)}
                             className={navbarStyles.mobileMenuButton}
                         >
                             {isOpen ? <X size={20} /> : <Menu size={20} />}
-                        </button>
+                        </button> */}
                     </div>
                 </div>
 
                 {/* mobile nav */}
-                <div ref={menuRef} className={`${navbarStyles.mobileMenu} ${isOpen ? navbarStyles.mobileMenuOpen : navbarStyles.mobileMenuClosed
+                <div ref={menuRef} className={`${navbarStyles.mobileMenu} ${isOpen ?
+                 navbarStyles.mobileMenuOpen : navbarStyles.mobileMenuClosed
                     }`}>
                     <div className={navbarStyles.mobileMenuContainer}>
                         <div className={navbarStyles.mobileMenuItems}>
