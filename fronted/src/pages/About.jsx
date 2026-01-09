@@ -10,7 +10,7 @@ const About = () => {
         <AboutPage />
         <Footer />
     </div>
-  )
-}
+  );
+};
 
 export default About;
